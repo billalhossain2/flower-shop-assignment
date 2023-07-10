@@ -17,10 +17,11 @@ body {
   color: #fff;
   font-size: 20px;
   font-weight: 700;
+  cursor: pointer;
 }
 
 .left-right-equal-space {
-  margin: 0 150px;
+  margin: 0 100px;
 }
 
 .section-title {
@@ -163,5 +164,105 @@ header {
   display: flex;
   margin: 24px 0 32px 0;
 }
-.deal-section-image-container {
+.colorful-off {
+  color: #e55473;
+}
+
+/* instagram related styles  */
+.instgram-section {
+  margin-bottom: 128px;
+}
+.instagram-content {
+  max-width: 590px;
+  margin: 0 auto;
+}
+
+.instagram-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 24px 0 48px 0;
+}
+
+.instagram-cards-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.instagram-cards-container img {
+  max-width: 280px;
+}
+
+/* details related styles  */
+.details-section {
+  margin-bottom: 128px;
+}
+.details-container {
+  background-image: url("../Flower Asset/Rectangle\ 9.png");
+  display: flex;
+  padding: 122px 287px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.details-container form input {
+  padding: 23px 22px;
+  border: 0;
+  outline: none;
+  background: #fff;
+  margin-right: 16px;
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.details-description {
+  padding: 5px 0 48px 0;
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+/* footer related styles  */
+footer {
+    background: #111010;
+    padding: 128px 0;
+}
+
+.foote-content {
+  max-width: 625px;
+  margin: 0 auto;
+}
+
+.footer-title {
+}
+
+.colorful-flower-txt {
+  color: #e55473;
+}
+.white-text{
+    color:#fff;
+}
+
+.footer-description {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 24px 0 32px 0;
+}
+
+.footer-copy-right {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
 }
