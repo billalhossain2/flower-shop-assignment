@@ -68,7 +68,7 @@ header {
 
 /* feature related styles  */
 .feature-section {
-    margin-bottom: 128px;
+  margin-bottom: 128px;
 }
 
 .section-title {
@@ -94,10 +94,9 @@ header {
 }
 
 .feature-item {
-   
 }
 
-.feature-image-container{
+.feature-image-container {
   width: 350px;
   height: 500px;
   border-radius: 300px 300px 0px 0px;
@@ -108,20 +107,61 @@ header {
   margin-bottom: 32px;
 }
 
-.feature-image{
-    width: 250px;
-    height: 400px;
+.feature-image {
+  width: 250px;
+  height: 400px;
 }
 
 .feature-image-container2 {
- background: rgba(5, 151, 160, 0.15);
+  background: rgba(5, 151, 160, 0.15);
 }
 
 .feature-image-container3 {
-    background: rgba(71, 125, 17, 0.15);
+  background: rgba(71, 125, 17, 0.15);
 }
 
-.feature-caption{
-    text-align: center;
-    text-decoration: underline;
+.feature-caption {
+  text-align: center;
+  text-decoration: underline;
+}
+
+/* servcie section related styles  */
+.service-section {
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 87px;
+  margin-bottom: 128px;
+}
+
+/* deal section related assignment  */
+.deal-section {
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+}
+.deal-section-contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 594px;
+}
+.deal-section-title {
+}
+.deal-section-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  display: flex;
+  margin: 24px 0 32px 0;
+}
+.deal-section-image-container {
 }
