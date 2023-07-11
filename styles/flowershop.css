@@ -24,6 +24,10 @@ body {
   margin: 0 100px;
 }
 
+.secton-bottom-space{
+  margin-bottom: 130px;
+}
+
 .section-title {
   color: #272727;
   text-align: center;
@@ -31,11 +35,11 @@ body {
   font-weight: 800;
 }
 
+
 /* header related styles  */
 header {
-  height: 850px;
+  height: 90vh;
   background: rgba(229, 84, 115, 0.1);
-  margin-bottom: 178px;
 }
 
 .banner {
@@ -55,6 +59,7 @@ header {
   font-size: 50px;
   font-weight: 800;
 }
+
 .banner-description {
   color: rgba(39, 39, 39, 0.6);
   font-size: 18px;
@@ -64,17 +69,10 @@ header {
 }
 
 .banner-image-container img {
-  height: 800px;
+  height: 90vh;
 }
 
 /* feature related styles  */
-.feature-section {
-  margin-bottom: 128px;
-}
-
-.section-title {
-}
-
 .feature-description {
   color: rgba(39, 39, 39, 0.6);
   text-align: center;
@@ -94,14 +92,10 @@ header {
   gap: 24px;
 }
 
-.feature-item {
-}
-
 .feature-image-container {
   width: 350px;
   height: 500px;
   border-radius: 300px 300px 0px 0px;
-  background: rgba(167, 33, 98, 0.15);
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -113,6 +107,10 @@ header {
   height: 400px;
 }
 
+.feature-image-container1 {
+  background: rgba(167, 33, 98, 0.15);
+}
+
 .feature-image-container2 {
   background: rgba(5, 151, 160, 0.15);
 }
@@ -122,8 +120,12 @@ header {
 }
 
 .feature-caption {
+  color: #272727;
   text-align: center;
-  text-decoration: underline;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration: underline gray;
 }
 
 /* servcie section related styles  */
@@ -135,26 +137,35 @@ header {
   justify-content: space-around;
   align-items: center;
   padding: 87px;
-  margin-bottom: 128px;
 }
 
-/* deal section related assignment  */
+.service-description {
+  padding-top: 24px;
+  color: rgba(39, 39, 39, 0.8);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 35px;
+}
+
+/* deal section related styles  */
 .deal-section {
   border-radius: 8px;
   background: rgba(229, 84, 115, 0.05);
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 80px;
   padding: 100px 0;
 }
+
 .deal-section-contents {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 594px;
+  max-width: 600px;
 }
-.deal-section-title {
-}
+
 .deal-section-description {
   color: rgba(39, 39, 39, 0.6);
   text-align: center;
@@ -164,14 +175,12 @@ header {
   display: flex;
   margin: 24px 0 32px 0;
 }
+
 .colorful-off {
   color: #e55473;
 }
 
 /* instagram related styles  */
-.instgram-section {
-  margin-bottom: 128px;
-}
 .instagram-content {
   max-width: 590px;
   margin: 0 auto;
@@ -196,12 +205,79 @@ header {
   max-width: 280px;
 }
 
-/* details related styles  */
-.details-section {
-  margin-bottom: 128px;
+/* ====================testimonial sectoin style================  */
+.testimonil-title{
+  color:#e55473;
 }
+
+.testimonial-description{
+  text-align: center;
+  padding: 20px 0;
+  color:#e55473;
+}
+
+.testimonials-container{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.testimonial-item{
+  max-width: 380px;
+}
+
+.client-image-container{
+  display: flex;
+  justify-content: center;
+}
+
+.testimonial-body{
+  color:#a89e9e;
+  background: #f3f0f0;
+  border: solid #e0dbdb 1px;
+  padding: 70px 20px 20px 20px;
+  text-align: center;
+}
+
+.fa-quote-left, .fa-quote-right{
+  color:#e55473;
+  font-weight: 700px;
+  font-size: 1.5rem;
+}
+.client-image{
+  max-width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: -60px;
+  border: solid #fff 8px;
+}
+
+.client-feedback{
+ 
+}
+
+.client-info-container{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 10px;
+}
+.client-name{
+  color:#e55473;
+  font-weight: bolder;
+}
+.client-profession{}
+
+
+
+
+
+
+
+
+
+/* details related styles  */
 .details-container {
-  background-image: url("../Flower Asset/Rectangle\ 9.png");
+  background-image: url("../assets/Rectangle\ 9.png");
   display: flex;
   padding: 122px 287px;
   justify-content: center;
@@ -232,8 +308,8 @@ header {
 
 /* footer related styles  */
 footer {
-    background: #111010;
-    padding: 128px 0;
+  background: #111010;
+  padding: 128px 0;
 }
 
 .foote-content {
@@ -241,14 +317,11 @@ footer {
   margin: 0 auto;
 }
 
-.footer-title {
-}
-
 .colorful-flower-txt {
   color: #e55473;
 }
-.white-text{
-    color:#fff;
+.white-text {
+  color: #fff;
 }
 
 .footer-description {
