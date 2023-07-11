@@ -205,8 +205,8 @@ header {
   max-width: 280px;
 }
 
-/* ====================testimonial sectoin style================  */
-.testimonil-title{
+/* ==================== testimonial sectoin style ================  */
+.testimonial-title{
   color:#e55473;
 }
 
@@ -251,29 +251,17 @@ header {
   border: solid #fff 8px;
 }
 
-.client-feedback{
- 
-}
-
 .client-info-container{
   display: flex;
   justify-content: center;
   gap: 10px;
   padding-top: 10px;
 }
+
 .client-name{
   color:#e55473;
   font-weight: bolder;
 }
-.client-profession{}
-
-
-
-
-
-
-
-
 
 /* details related styles  */
 .details-container {
